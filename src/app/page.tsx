@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -13,7 +13,7 @@ import FaqDouble from '@/components/sections/faq/FaqDouble';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { BarChart3, BookOpen, Calendar, Crown, GraduationCap, Handshake, HelpCircle, Mail, Newspaper, Puzzle, Quote, Shield, Sparkles, Target, Trophy, Users } from 'lucide-react';
+import { BarChart3, BookOpen, Calendar, Crown, GraduationCap, Handshake, HelpCircle, Mail, Newspaper, Puzzle, Quote, Shield, Sparkles, Target, Trophy, Users, Linkedin, Twitter, Globe } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -140,8 +140,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763394260221-qca8gtli.jpg",
               imageAlt: "Master Alexander - Head Coach",
               socialLinks: [
-                { icon: "Mail", url: "mailto:coach@chessclub.com" },
-                { icon: "Linkedin", url: "https://linkedin.com/in/masteralexander" }
+                { icon: Mail, url: "mailto:coach@chessclub.com" },
+                { icon: Linkedin, url: "https://linkedin.com/in/masteralexander" }
               ]
             },
             {
@@ -152,8 +152,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763394260777-35c7vncm.jpg",
               imageAlt: "Sarah Martinez - Club President",
               socialLinks: [
-                { icon: "Mail", url: "mailto:president@chessclub.com" },
-                { icon: "Twitter", url: "https://twitter.com/sarahchess" }
+                { icon: Mail, url: "mailto:president@chessclub.com" },
+                { icon: Twitter, url: "https://twitter.com/sarahchess" }
               ]
             },
             {
@@ -164,8 +164,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763394261667-9bkczja2.jpg",
               imageAlt: "David Chen - Event Organizer",
               socialLinks: [
-                { icon: "Mail", url: "mailto:events@chessclub.com" },
-                { icon: "Globe", url: "https://chessevents.com" }
+                { icon: Mail, url: "mailto:events@chessclub.com" },
+                { icon: Globe, url: "https://chessevents.com" }
               ]
             }
           ]}
